@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "445888520357",
+    "firebase_url": "https://bitirme-projem.firebaseio.com",
+    "project_id": "bitirme-projem",
+    "storage_bucket": "bitirme-projem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445888520357:android:6debacd0113a71af",
+        "android_client_info": {
+          "package_name": "com.burak.blooder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445888520357-s0tqnog6f72jupmp3s18p0ifvc0fanm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.burak.blooder",
+            "certificate_hash": "09720e0318de524302be49dc10eb3124b908d27c"
+          }
+        },
+        {
+          "client_id": "445888520357-mn5qf8ogv0rilcltdnseupqqtqhv4j1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHEgOBYN4tb5z1xa29tGvDVrhfvtRDSFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445888520357-mn5qf8ogv0rilcltdnseupqqtqhv4j1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

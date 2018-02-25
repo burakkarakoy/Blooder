@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.burak.blooder.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@drawable/arka">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_menu" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="110dp"
+        >
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:hint="E-mail"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="110dp">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:hint="Şifre"
+            android:inputType="textPersonName"
+            android:password="true"
+            android:textColorHint="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+android:layout_marginLeft="127dp"
+        android:id="@+id/loginButton"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:backgroundTint="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:text="Giriş"
+        android:textColorHint="@android:color/white"
+        app:srcCompat="@drawable/login_button" />
+  <LinearLayout
+      android:layout_marginTop="25dp"
+      android:layout_width="150dp"
+      android:layout_height="25dp"
+      android:layout_marginLeft="130dp">
+
+      <TextView
+
+          android:id="@+id/forgotPassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.14"
+          android:text="Şifremi Unuttum"
+          android:textColor="@android:color/white"
+          android:textSize="20dp" />
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp">
+      <TextView
+          android:id="@+id/orText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.20"
+          android:text="Ya da"
+          android:textColor="@android:color/white"
+          android:textSize="18dp"
+          /></LinearLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft= "160dp"
+        android:layout_marginTop="20dp">
+
+      <TextView
+          android:id="@+id/signUp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.20"
+          android:text="Kaydolun"
+          android:textColor="@android:color/white"
+          android:textSize="20dp" />
+  </LinearLayout>
+
+
+</LinearLayout>
+
